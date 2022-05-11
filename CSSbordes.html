@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordes, colores e imagenes</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #fondo {
+
+            height: 50vh;
+            background-size: cover;
+            object-fit: contain;
+            margin-right: 25%;
+            margin-left: 25%;
+            border-color: aqua;
+            background-image: url(./boxerpuppy.jpg);
+            /*display: flex;
+            justify-content: center;*/
+
+        }
+
+        #fondo:active {
+
+
+            background-image: url(./boxeradulto.jpg);
+
+        }
+
+        div:first-child:hover {
+            padding: 20px;
+            width: 30%;
+        }
+
+        div:first-child:active {
+            padding: 20px;
+            width: 30%;
+
+        }
+
+        #texto {
+
+            justify-content: center;
+            padding: 5px;
+            margin-right: 5%;
+            margin-left: 5%;
+            background: rgb(178, 132, 214);
+            background: linear-gradient(90deg, rgba(178, 132, 214, 1) 15%, rgba(82, 189, 135, 1) 67%, rgba(0, 212, 255, 1) 100%);
+
+        }
+
+        #texto:hover {
+
+            column-count: 3;
+            text-align: center;
+            column-width: 30%;
+
+        }
+
+        #texto:active {
+            -moz-column-count: 2;
+            -webkit-column-count: 2;
+            column-count: 2;
+            text-align: center;
+            width: 800px;
+            margin-left: 20%;
+
+        }
+
+        #texto p:hover::first-letter {
+
+            margin-left: 20%;
+            margin-top: 60%;
+            font-size: 200%;
+            font-weight: bold;
+            font-style: italic;
+            color: rgba(250, 244, 244, 0.566);
+        }
+
+        p:hover:last-of-type {
+            background: rgb(233, 139, 38);
+            background: linear-gradient(90deg, rgba(233, 139, 38, 1) 14%, rgba(189, 82, 165, 1) 55%, rgba(255, 0, 121, 1) 100%);
+            color: rgb(255, 255, 255);
+        }
+
+        p:active:last-of-type {
+            background: rgb(129, 228, 85);
+            background: radial-gradient(circle, rgba(129, 228, 85, 1) 11%, rgba(5, 14, 255, 1) 100%);
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="fondo">
+    </div>
+    <br>
+    <br>
+    <div id="texto">
+        <p>
+            Lorem fistrum de la pradera sexuarl a wan caballo blanco caballo negroorl te voy a borrar el cerito. Me cago
+            en
+            tus muelas ese pedazo de apetecan ahorarr caballo blanco caballo negroorl por la gloria de mi madre por la
+            gloria de mi madre a peich. Tiene musho peligro papaar papaar hasta luego Lucas a wan no puedor. Mamaar jarl
+            ese
+            que llega mamaar caballo blanco caballo negroorl pupita qué dise usteer pupita jarl no puedor. Al ataquerl
+            va
+            usté muy cargadoo te voy a borrar el cerito no puedor quietooor no puedor a wan hasta luego Lucas no te digo
+            trigo por no llamarte Rodrigor. Al ataquerl no te digo trigo por no llamarte Rodrigor tiene musho peligro
+            llevame al sircoo pupita.
+        </p>
+        <p>
+            No puedor diodenoo torpedo ese hombree no puedor. Se calle ustée ese hombree apetecan tiene musho peligro a
+            wan
+            sexuarl tiene musho peligro va usté muy cargadoo apetecan se calle ustée. No puedor ese que llega jarl te
+            voy a
+            borrar el cerito ese hombree a peich diodenoo te va a hasé pupitaa apetecan. Ese que llega al ataquerl a wan
+            condemor se calle ustée la caidita ahorarr hasta luego Lucas por la gloria de mi madre fistro. Diodeno
+            mamaar la
+            caidita ese hombree papaar papaar no puedor por la gloria de mi madre ese pedazo de papaar papaar caballo
+            blanco
+            caballo negroorl se calle ustée. Sexuarl a gramenawer a gramenawer sexuarl a gramenawer. A gramenawer pupita
+            de
+            la pradera a gramenawer de la pradera va usté muy cargadoo. Por la gloria de mi madre al ataquerl torpedo la
+            caidita pupita no puedor no puedor. Quietooor amatomaa ese hombree caballo blanco caballo negroorl ese
+            pedazo de
+            quietooor ese hombree fistro me cago en tus muelas la caidita a wan.
+        </p>
+
+    </div>
+
+</body>
+
+</html>
